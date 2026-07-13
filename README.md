@@ -68,7 +68,7 @@ thing to mention in an interview as your "v2" plan.
 
 ---
 
-## Study order (so you can defend this in an interview)
+
 
 1. **Why not accuracy** — read the comments above `evaluate_model()` in
    `train.py`. With ~0.5-1.7% fraud, a model that always predicts "legit"
@@ -97,7 +97,7 @@ thing to mention in an interview as your "v2" plan.
    (< 0.1 stable, 0.1-0.25 moderate, > 0.25 significant) — these are
    industry-standard numbers worth memorizing.
 
-## Interview questions this preps you for
+
 
 - "Your model has 99% accuracy but the business says it's useless — why?"
 - "How do you prevent data leakage in a time-series problem?"
@@ -109,7 +109,7 @@ thing to mention in an interview as your "v2" plan.
 
 ---
 
-## Verification — what was actually tested vs. what to verify yourself
+## Verification
 
 Being upfront about this, since it matters for how much you should trust
 the code before an interview:
@@ -146,7 +146,7 @@ If either of those breaks in your environment, send me the error and I'll fix it
 
 ---
 
-## Known limitations (mention these upfront in interviews — it shows maturity, not weakness)
+## Known limitations 
 
 - `txn_count_last_hour` in `main.py`'s online feature computation is
   simplified to an all-time running count, not a true rolling 1-hour
